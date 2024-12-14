@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         "cstm-bg-light-gray": "#202028",
-        "icon-bg":"#46474c",
+        "icon-bg": "#46474c",
+        "total-card-bg": "#202129",
       },
     },
   },
