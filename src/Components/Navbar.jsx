@@ -40,7 +40,7 @@ const Navbar = ({ showSideBar, setShowSidebar, screenWidth }) => {
             <div className="w-2 h-2 bg-[#7192fb] rounded-full absolute top-[15%] right-[15%]"></div>
           </div>
           <div className="md:w-10 md:h-10 w-8 h-8 cursor-pointer">
-            <img className="rounded-full" src="/images/profile_picture.jpg" />
+            <img alt="profile" className="rounded-full" src="/images/profile_picture.jpg" />
           </div>
         </div>
       </nav>

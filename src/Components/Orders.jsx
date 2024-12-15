@@ -65,6 +65,7 @@ const Orders = () => {
             <tr className="border-t border-gray-700 grid grid-cols-5 items-center py-3 cursor-pointer">
               <td className="flex items-center gap-2 col-span-2">
                 <img
+                alt="customer profile"
                   className="w-8 h-8 rounded-full"
                   src={order.customerImg}
                 />

@@ -33,6 +33,7 @@ const FeedBack = () => {
           <div className="border-b border-gray-700 py-3">
             <div className="flex items-center gap-2 col-span-2">
               <img
+              alt="customer"
                 className="w-8 h-8 rounded-full"
                 src="/images/profile_picture.jpg"
               />

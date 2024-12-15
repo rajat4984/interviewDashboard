@@ -3,7 +3,6 @@ import {
   Dock,
   HandPlatter,
   Target,
-  TargetIcon,
 } from "lucide-react";
 
 const menuArr = [
