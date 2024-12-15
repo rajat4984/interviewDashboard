@@ -53,7 +53,7 @@ const Chart = () => {
           15000, 13000, 14000, 7000, 4000, 6000, 8000, 12000, 9000, 16000,
           14000, 15000, 17000, 18000, 19000, 20000, 18000, 15000, 14000,
         ],
-        backgroundColor: "rgba(114, 144, 255, 0.8)", // Blue shade
+        backgroundColor: "rgba(114, 144, 255, 0.8)",
         borderRadius: 25,
         borderSkipped: false,
       },
@@ -96,7 +96,7 @@ const Chart = () => {
   };
 
   return (
-  <div className="h-80 bg-dashboard-card-bg p-5 pb-16 rounded-lg xl:w-[65%]">
+    <div className="h-80 bg-dashboard-card-bg p-5 pb-16 rounded-lg xl:w-[65%]">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-white text-lg font-semibold">Activity</h2>
         <select
