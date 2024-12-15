@@ -5,6 +5,8 @@ import Total from "../Components/Total";
 import NetProfit from "../Components/NetProfit";
 import Orders from "../Components/Orders";
 import FeedBack from "../Components/Feedback";
+import Goals from "../Components/Goals";
+import Chart from "../Components/Chart";
 
 const Home = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -29,14 +31,17 @@ const Home = () => {
       <SideBar showSideBar={showSideBar} />
 
       <div
-        className={`${
-          showSideBar && "ml-12"
-        } bg-[#151516] text-white p-5 px-8`}
+        className={`${showSideBar && "ml-12"} bg-[#151516] text-white p-5 px-8`}
       >
         <h1 className="font-semibold text-2xl py-3">Dashboard</h1>
         <div className="flex-col lg:flex-row flex gap-3 mb-6">
           <Total />
           <NetProfit />
+        </div>
+
+        <div className="flex-col lg:flex-row flex gap-3 mb-6">
+          <Chart />
+          <Goals />
         </div>
 
         <div className="flex-col lg:flex-row flex gap-3">
