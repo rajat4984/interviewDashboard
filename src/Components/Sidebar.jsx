@@ -9,23 +9,23 @@ import { useState } from "react";
 
 const sideBarMenu = [
   {
-    icon: <House size={21} color="#a1a3a7" />,
+    icon: <House size={24} color="#a1a3a7" />,
     iconName: "home",
   },
   {
-    icon: <ChartColumnIncreasing size={21} color="#a1a3a7" />,
+    icon: <ChartColumnIncreasing size={24} color="#a1a3a7" />,
     iconName: "chart",
   },
   {
-    icon: <ClipboardCheck size={21} color="#a1a3a7" />,
+    icon: <ClipboardCheck size={24} color="#a1a3a7" />,
     iconName: "clip",
   },
   {
-    icon: <Wallet size={21} color="#a1a3a7" />,
+    icon: <Wallet size={24} color="#a1a3a7" />,
     iconName: "wallet",
   },
   {
-    icon: <ShoppingBag size={21} color="#a1a3a7" />,
+    icon: <ShoppingBag size={24} color="#a1a3a7" />,
     iconName: "bag",
   },
 ];
