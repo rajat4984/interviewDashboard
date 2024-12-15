@@ -5,8 +5,8 @@ import Total from "../Components/Total";
 import NetProfit from "../Components/NetProfit";
 import Orders from "../Components/Orders";
 import FeedBack from "../Components/Feedback";
-import Goals from "../Components/Goals";
 import Chart from "../Components/Chart";
+import Goals from "../Components/Goals";
 
 const Home = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
