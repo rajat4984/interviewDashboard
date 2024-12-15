@@ -2,7 +2,7 @@ import { ChevronUp } from "lucide-react";
 
 const NetProfit = () => {
   return (
-    <div className="bg-dashboard-card-bg w-[100%] lg:w-[35%] p-3 rounded-lg">
+    <div className="bg-dashboard-card-bg w-[100%] lg:w-[35%] p-3 rounded-lg cursor-pointer">
       <p className="text-sm">Net profit</p>
       <div className="flex justify-between items-center">
         <div>

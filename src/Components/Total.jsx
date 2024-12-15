@@ -53,7 +53,7 @@ const Total = () => {
         return (
           <div
             key={index}
-            className="bg-dashboard-card-bg flex flex-col gap-5 justify-start p-3 min-w-[135px] xl:min-w-[180px] h-full rounded-lg"
+            className="cursor-pointer bg-dashboard-card-bg flex flex-col gap-5 justify-start p-3 min-w-[135px] xl:min-w-[180px] h-full rounded-lg hover:shadow-sm hover:shadow-gray-300 transition-all"
           >
             <div>
               <div

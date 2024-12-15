@@ -33,7 +33,7 @@ const Home = () => {
       <div
         className={`${showSideBar && "ml-12"} bg-[#151516] text-white p-5 px-8`}
       >
-        <h1 className="font-semibold text-2xl py-3">Dashboard</h1>
+        <h1 className="font-semibold text-2xl mb-4 pt-3 mt-12">Dashboard</h1>
         <div className="flex-col lg:flex-row flex gap-3 mb-6">
           <Total />
           <NetProfit />

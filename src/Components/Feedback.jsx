@@ -26,7 +26,7 @@ const FeedBack = () => {
     },
   ];
   return (
-    <div className="feed-back-card bg-dashboard-card-bg lg:w-[35%] p-4 rounded-lg overflow-y-scroll h-[450px] scroll">
+    <div className="feed-back-card bg-dashboard-card-bg lg:w-[35%] p-4 rounded-lg overflow-y-scroll h-[450px] scroll cursor-pointer">
       <p className="text-2xl font-bold">Customer's Feedback</p>
       {feedBackArr.map((feedBack) => {
         return (

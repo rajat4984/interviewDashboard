@@ -52,7 +52,7 @@ const Orders = () => {
   ];
   return (
     <div className="bg-dashboard-card-bg p-4 lg:w-[65%] rounded-xl">
-      <p>Recent Orders</p>
+       <p className="text-2xl font-bold cursor-pointer">Recent Orders</p>
       <table className="text-sm w-full">
         <tr className="text-sm font-bold grid grid-cols-5 py-3 pt-4">
           <th className="text-left col-span-2">Customers</th>
