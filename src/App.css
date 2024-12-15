@@ -9,3 +9,27 @@
   box-sizing: border-box;
   font-family: "Noto Sans", serif;
 }
+
+.feed-back-card {
+  scrollbar-width: none;
+}
+
+body {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #151516;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+

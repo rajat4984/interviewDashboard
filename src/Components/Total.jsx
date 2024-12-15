@@ -48,12 +48,12 @@ const Total = () => {
   ];
 
   return (
-    <div className=" grid grid-cols-1 sm:grid-cols-2 lg:flex items-center gap-3 lg:w-[65%]">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex items-center gap-3 lg:w-[65%] justify-between">
       {cardsArr.map((card, index) => {
         return (
           <div
             key={index}
-            className="bg-total-card-bg flex flex-col gap-5 justify-start p-3 min-w-[135px] xl:min-w-[180px] h-full rounded-lg"
+            className="bg-dashboard-card-bg flex flex-col gap-5 justify-start p-3 min-w-[135px] xl:min-w-[180px] h-full rounded-lg"
           >
             <div>
               <div

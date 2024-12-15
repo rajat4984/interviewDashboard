@@ -3,6 +3,8 @@ import Navbar from "../Components/Navbar";
 import SideBar from "../Components/Sidebar";
 import Total from "../Components/Total";
 import NetProfit from "../Components/NetProfit";
+import Orders from "../Components/Orders";
+import FeedBack from "../Components/Feedback";
 
 const Home = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -18,7 +20,7 @@ const Home = () => {
     };
   }, []);
   return (
-    <>
+    <div>
       <Navbar
         showSideBar={showSideBar}
         screenWidth={screenWidth}
@@ -27,15 +29,22 @@ const Home = () => {
       <SideBar showSideBar={showSideBar} />
 
       <div
-        className={`${showSideBar && "ml-12"} bg-[#151516] text-white p-5 px-8 h-screen`}
+        className={`${
+          showSideBar && "ml-12"
+        } bg-[#151516] text-white p-5 px-8`}
       >
         <h1 className="font-semibold text-2xl py-3">Dashboard</h1>
-        <div className="flex-col lg:flex-row flex gap-2">
+        <div className="flex-col lg:flex-row flex gap-3 mb-6">
           <Total />
           <NetProfit />
         </div>
+
+        <div className="flex-col lg:flex-row flex gap-3">
+          <Orders />
+          <FeedBack />
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 
