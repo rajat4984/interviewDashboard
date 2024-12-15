@@ -3,7 +3,7 @@ import { Bell, Grid2x2, Mail, Search, Settings } from "lucide-react";
 const Navbar = ({ showSideBar, setShowSidebar, screenWidth }) => {
   return (
     <>
-      <nav className="bg-cstm-bg-light-gray flex items-center justify-between p-3">
+      <nav className="bg-cstm-bg-light-gray flex items-center justify-between p-3 fixed w-full top-0 z-10">
         <div className="flex items-center gap-4">
           <Grid2x2
             color="#7290ff"

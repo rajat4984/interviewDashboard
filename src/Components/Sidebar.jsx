@@ -9,7 +9,7 @@ const SideBar = ({ showSideBar }) => {
   return (
     <div>
       {showSideBar && (
-        <div className="bg-cstm-bg-light-gray py-3 w-12 h-full flex  flex-col  gap-5 absolute left-0 ">
+        <div className="bg-cstm-bg-light-gray py-3 w-12 h-full flex  flex-col  gap-5 fixed top-[8%] md:top-[10%] xl:top-[9%] left-0 ">
           <div className="flex gap-2 cursor-pointer">
             <div className="bg-[#7290ff] w-1  left-0"></div>
             <House fill="#7290ff" size={21} color="#a1a3a7" />
